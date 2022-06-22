@@ -22,6 +22,7 @@ e.g. `git remote set-url origin https://git.kieranrobson.com/kieran/reponame`
 `git remote show <name>`
 
 ### reset your local git repo to whatever state the remote is
+
 ```bash
 read -p "Enter branch name: " branchname 
 git fetch origin
@@ -39,10 +40,10 @@ git commit --amend --no-edit
 
 git reflog
 read -p "Enter index: " index
-# you will see a list of every thing you've
-# done in git, across all branches!
-# each one has an index HEAD@{index}
-# find the one before you broke everything
+<br>\# you will see a list of every thing you've
+<br>\# done in git, across all branches!
+<br>\# each one has an index HEAD@{index}
+<br>\# find the one before you broke everything
 git reset HEAD@{$index}
 
 
