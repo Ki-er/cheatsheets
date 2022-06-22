@@ -5,3 +5,4 @@
 
 - [Awesome Lists](/Cheatsheets/Awesome-Lists.md)
 - [Minecraft](/Cheatsheets/Minecraft.md)
+- [Git](/Cheatsheets/Git.md)
