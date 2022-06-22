@@ -33,18 +33,21 @@ git clean -d --force
 
 ### add files to a commit without just making a new commit
 
+```bash
 git add . # or add individual files
 git commit --amend --no-edit
-
+```
 ### a magic git time machine
 
+```bash
 git reflog
 read -p "Enter index: " index
-<br>\# you will see a list of every thing you've
-<br>\# done in git, across all branches!
-<br>\# each one has an index HEAD@{index}
-<br>\# find the one before you broke everything
+# you will see a list of every thing you've
+# done in git, across all branches!
+# each one has an index HEAD@{index}
+# find the one before you broke everything
 git reset HEAD@{$index}
+```
 
 
 some commands taken from <https://dangitgit.com>
