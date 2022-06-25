@@ -4,5 +4,7 @@
 ## Index
 
 - [Awesome Lists](/Cheatsheets/Awesome-Lists.md)
-- [Minecraft](/Cheatsheets/Minecraft.md)
 - [Git](/Cheatsheets/Git.md)
+- [Jekyll](/Cheatsheets/Jekyll.md)
+- [Minecraft](/Cheatsheets/Minecraft.md)
+
